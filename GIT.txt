@@ -1,0 +1,17 @@
+**************git up lan dau tu folder co san trong may len reposity cua git *************
+mo git bash here tai folder muon push
+git init
+git add .
+git commit -m "First commit"
+git remote add [name_muon_dat] Url_repository_cua_git
+***git remote add origin https://github.com/nntmy/document-angular.git ***
+ git remote -v
+git push origin master
+
+*******************************************************************
+++++++++++++++++ Push thay doi len bang tortoise git ++++++++++++++++++++++
+chon git Commit -> master
+Commit&Push
+chon manager 
+paste Url reposity cua git vao muc URL,Push URL
+dien ten vao muc remote => ok 
