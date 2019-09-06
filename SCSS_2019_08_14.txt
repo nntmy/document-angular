@@ -1,0 +1,13 @@
+Tìm hiểu về SCSS :
++Định nghĩa :SCSS là dạng nâng cấp của SASS. Nó giúp cách viết SASS gần gũi với cách viết CSS thông thường hơn .
++Ưu điểm: Với việc dùng SCSS dev có thể viết CSS một cách chuyên nghiệp hơn với nhiều tính năng tiện dụng hơn,
+ ngoài ra nó còn tự động nén file CSS lại để tiếp kiệm dung lượng .
+Với SCSS dev có thể tạo biến , hàm , dùng thuật toán trong CSS .
++Các tính năng nổi bật: 
+1.Quy tắc xếp chồng (Nested Rule): Giúp viết thuộc tính cho các thẻ con nhanh hơn .
+2.Biến: tạo biến chứa giá trị có thể sử dụng nhiều lần .
+3.Mixin: tạo biến có nhiều giá trị hoặc có giá trị thay đổi khi truyền tham số vào.
+4.Extends: tạo một class với các thuộc tính có sẵn rồi gọi ra khi cần .
++Cài đặt và sử dụng:Để sử dụng SCSS cần cài SASS .
+Nếu dùng Node.js thì sử dụng câu lệnh: npm install -g sass
+Sau đó có thể dùng câu lệnh node-sass ten_file.sass ten_file.css trong Terminal của VsCode để biên dịch từ SASS sang CSS.

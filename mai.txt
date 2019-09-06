@@ -1,0 +1,10 @@
+tao bang bang primeNg
+tao library 
+them component
+them sua xoa component trong library
+dong goi 
+chia se 
+gui duoc cho ng khac
+
+library ve giao dien ,
+du lieu tu ngoai project truyen vo

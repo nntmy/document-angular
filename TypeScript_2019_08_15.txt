@@ -1,0 +1,41 @@
+TypeScript
+cai dat :npm install -g typescript
+bien dich tu file .ts sang file.js: tsc ten_file.ts
+
+typescript la trinh bien dich javascript, giup code javascript hieu qua hon, kiem soat loi tot hon, an toan hon .
+
+let ten_bien: kieu_du_lieu = gia_tri;
+
+bien khai bao bang let co gia tri trong pham vi {}
+bien khai bao bang var co gia tri trong function
+
+let a ;
+a = 20;
+a = true ;
+=> a co the la bat cu kieu du lieu nao 
+
+let b = 20; 
+b = true; => sai , b bay gio co kieu la number
+
+let a = number | boolean;
+a = 20 ;
+a = true ;
+
+neu khong khai bao a = true; => a se co kieu number
+
+let a = any;
+=> a k co kieu du lieu cu the
+
+let co the khong khai bao gia tri 
+
+const bat buoc phai co gia tri
+
+Arrays – Có 2 ki?u cú pháp: my_arr: number[]; ho?c my_arr: Array<number>.
+
+js luon o duoi cung
+
+interface trong typescript dung de kiem tra object co phu hop voi cau truc da khai bao khong , neu sai trinh bien dich se canh bao,
+khi chuyen sang file js interface se bien mat.
+
+Class duoc cung cap giong voi cac ngon ngu C#,java bao gom ke thua, da hinh, contructor,...
+--- trong js cung co classes tu phien ban ECMAScript 2015, nhung typescript nghiem ngat hon .

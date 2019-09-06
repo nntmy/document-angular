@@ -1,0 +1,28 @@
+Angular
+cai dat : 
+1. can co node.js
+2. kiem tra node.js da cai chua: node --version , npm --version
+3. cai dat angular: npm install -g @angular/cli @version
+4. tao project moi: ng new ten-app (khong dung "_",so trong ten app)
+5. chay thu project vua tao: 
+	cd ten_app 
+	ng serve => app duoc chay tren localhost:4200.
+	ng serve --open/ -o => app tu dong mo tren trinh duyet voi duong link localhost:4200
+	ng serve --port so_port_muon_doi => app duoc chay voi localhost:so_port_muon_doi
+	Ctrl+C => ngung chuong trinh dang chay 
+
+6. mo app trong vs code 
+	6.1. tao folder component:
+		right click to app => run terminal => ng g c name-component
+	6.2. tao file service:
+		+> right click to app => run terminal => ng generate service name-serviec
+		+> right click to app => new file => name.service.ts
+
+7. tao module , routing moi
+
+	ng g module my-module --routing
+=> file duoc tao gom: my-module.module.ts va my-module-routing.module.ts
+
+8.co the bo qua viec tao spec.ts.spec.ts la cac file kiem tra don vi cho tep nguon . qui uoc cua angular,moi file.ts co 1 file spect.ts.
+
+ng tên ng-app-new --skip-tests

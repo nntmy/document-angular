@@ -1,0 +1,13 @@
+su dung mockapi gia lap api chua data
+
+su dung npm tao server 
+1. cai json server
+	npm install -g json-server
+
+2. tao file json.json chua data
+
+3. tao server voi file.json
+	json-server --watch db.json 
+
+observable co subscribe lang nghe tu server
+subscribe se tra ve kieu subscription.

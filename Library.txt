@@ -1,0 +1,56 @@
+lenh tao library
+	ng generate library format-paragraph
+code chinh trong file
+	format-paragraph-component.ts
+build library
+	ng build format-paragraph
+dong goi file dist
+	npm pack => file.tgz
+cau truc library tuong tu component 
+muon nhung library dung selection nhu component 
+
+muon xoa library vao file angular.json : xoa library 
+sau do ra ngoai xoa file library.
+****
+them component vao library 
+vao file lib dung lenh : ng g c ten_component
+vao file lib.module.ts : exports: [ten_component]
+vao file public-api.ts : export * from './lib/ten_component/ten_component.component';
+sau khi viet ham logic truyen du lieu => build lai library.
+****
+---add library san co Material 
+-Add library metarial 
+dung lenh : npm install --save @angular/material @angular/cdk @angular/animations
+*luu y : cac ban material, cdk, animations phai cung version
+-Import vao module.
+-import theme vao css
+-cai them HammerJS: npm install --save hammerjs
+-import :import 'hammerjs'; vao file main.ts
+- add icon: <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+=> khi su dung phai import vao module .
+VD: dung mat-chip phai import MatChipsModule
+
+********Share customer library 
+==> su dung lenh pulic up len npm : cach nay dung de chia se cho cong dong. ng khac co the dung lenh npm i de dowload .
+==> chia se local :
+	1. mo project muon cai library .
+	2. mo terminal 
+	3. go lenh : npm i 
+	4. keo file.tgz  vao terminal => se xuat hien duong dan den file.tgz
+	5. enter de cai
+	6. neu file co dung them library khac (VD : primeNG ) thi cai them primeNG
+*************
+Cai primeNG
+1** dung lenh : 
+npm install primeng --save
+npm install primeicons --save
+npm install @angular/animations --save
+
+2** import vao file style.css
+@import "../node_modules/primeng/resources/primeng.min.css";
+@import "../node_modules/primeng/resources/themes/nova-light/theme.css";
+@import "../node_modules/primeicons/primeicons.css";  
+
+3** import vao module 
+neu dung button : import {ButtonModule} from 'primeng/button';
+neu dung dialog :import {DialogModule} from 'primeng/dialog';

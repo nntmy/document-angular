@@ -1,0 +1,33 @@
+{{}}
+ cac cach hien thi :
+{{ten_bien}}
+{{ten_bien ? 'tra ket qua khi true' : 'tra ket qua khi false'}}
+{{object.property}}
+
+attribute directive
+
+structural directive:
+
+ ngIf = 'dieu kien' : xoa them 1 phan tu 
+ ngFor = ''
+ ngSwitch
+
+attribute directive:
+
+[ngClass]="['ten class.css','ten css']": them xoa class css
+
+ngStyle
+
+pipe format du lieu roi hien thi 
+
+ [class.ten_css]='dieu kien ' = true thi hien thi
+
+truyen tu cha vao con dung input , import Input
+truyen tu con vao cha dung output, import Output , EventEmitter
+
+nmthien2
+Minhthien96@@
+
+form module
+
+dirty : nguoi dung da co su thay doi tren form

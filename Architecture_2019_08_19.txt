@@ -1,0 +1,40 @@
+Architecture
+
+angular la framework .
+viec render html template do Angularized-markup lam .
+component quan ly template 
+service xu ly logic 
+component + service => module
+
+khai bao routing va module : ng g module my-module --routing
+=> file duoc tao gom: my-module.module.ts va my-module-routing.module.ts
+
+angular chay dua tren viec root module vao angular's bootstrapper
+
+ung dung angular gom nhieu module 
+
+moi module gom nhieu component
+trong folder component gom co 
+component.ts => xu ly logic
+component.html => template hien thi tren giao dien
+component.css => style cura template
+
+service dung de tao cac ham , class, funtion xu ly logic 
+
+@ngModule({
+
+declaration:[khai bao component,directives,pipes *chi thuoc ve 1 angular module*],
+
+import:[khai bao module cua angular , module tu dinh nghia *component,directives,pipes neu can*],
+
+providers:[khai bao service dung cho component,component dung cho module],
+
+bootstrap:[khai bao component chay dau tien ]
+
+})
+
+exports module,component,directives,pipes 
+
+chi co the truy cap file dong cap , hoac nho hon .
+
+index.html => app-root => router forroot => module => component.html => component.ts => service
