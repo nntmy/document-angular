@@ -1,0 +1,27 @@
+Jasmine cung cung c?p các hàm expect d? kh?ng d?nh m?t bi?u th?c c?n test ph?i có giá tr? th?a mãn m?t yêu c?u nào dó.
+
+expect(x).toEqual(val): Kh?ng d?nh giá tr? c?a d?i tu?ng x b?ng v?i val
+ (nhung không nh?t thi?t d?ng nh?t nhau).
+
+expect(x).toBe(obj): Kh?ng d?nh r?ng d?i tu?ng x d?ng nh?t v?i obj (2 d?i tu?ng này là m?t).
+
+expect(x).toMatch(regexp): Kh?ng d?nh chu?i x kh?p v?i bi?u th?c chính quy regexp.
+
+expect(x).toBeNull(): Kh?ng d?nh r?ng bi?n x ch?a giá tr? là null.
+
+expect(x).toBeTruthy(): Kh?ng d?nh r?ng giá tr? x là true ho?c u?c lu?ng b?ng true.
+
+expect(x).toBeFalsy(): Kh?ng d?nh r?ng giá tr? x là false ho?c u?c lu?ng b?ng false.
+
+expect(x).toContain(y): Kh?ng d?nh r?ng x là m?t chu?i ký t? và x ch?a giá tr? y 
+(chu?i y là m?t ph?n c?a chu?i x).
+
+expect(x).toBeGreaterThan(y): Kh?ng d?nh r?ng x l?n hon y.
+
+expect(x).toBeDefined(): Kh?ng d?nh r?ng bi?n x dã du?c d?nh nghia.
+
+expect(x).toBeUndefined(): Kh?ng d?nh r?ng bi?n x chua du?c d?nh nghia.
+
+fdescribe and fit ( skip the test or run only specific tests)
+
+ng test --reporters junit
